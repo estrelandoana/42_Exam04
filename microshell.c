@@ -30,8 +30,8 @@ int	cd(char **argv, int i)
   {
 		err("error: cd: cannot change directory to ");
 		err(argv[1]);
-    err("\n"), 1);
-    return (1);
+	        err("\n");
+        	return (1);
   }
 	return (0);
 }
